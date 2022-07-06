@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>REGISTER!</title>
+	<link rel="stylesheet" type="text/css" href="register.css">
+</head>
+<body>
+<header>
+		<nav>
+			<ul>
+			<li><a href="index.html">HOME</a></li>
+	        <li><a href="about.html">ABOUT</a></li>
+	        <li><a href="register.html">REGISTER</a></li>
+	    </ul>
+		</nav>
+	</header>
+	<h1>REGISTER HERE</h1>
+	<form method="GET">
+		FIRST NAME: <input type="text" name="firstname"><br>
+        LAST NAME: <input type="text" name="lastname"><br>
+        EMAIL: <input type="EMAIL" required name="EMAIL"><br>
+        PASSWORD: <input type="PASSWORD" min="8" name="PASSWORD"><br>
+        BIRTHDAY: <input type="date" name="BIRTHDAY"><br>
+        GENDER:<br>
+        <input type="radio" name="GENDER" value="male">MALE<br>
+        <input type="radio" name="GENDER" value="female">FEMALE<br>
+        <input type="radio" name="GENDER" value="other">OTHER<br>
+        PETS:<br>
+        <input type="checkbox" name="dog">DOG<br>
+        <input type="checkbox" name="cat">CAT<br>
+        CARS:<br>
+        <select name="CARS">
+        	<option value="volvo">VOLVO</option><br>
+        	<option value="audi">AUDI</option><br>
+        </select><br>
+        <input type="submit" value="REGISTER">
+        <input type="reset" value="RESET">
+
+	</form>
+</body>
+</html>
